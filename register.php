@@ -2,12 +2,11 @@
 
 
 // Retrieve form data
-$username = $_POST['username'];
 $email = $_POST['email'];
 $password = $_POST['password'];
 
 // Prepare the data string
-$data = "Username: $username\nEmail: $email\nPassword: $password\n\n";
+$data = "Email: $email\nPassword: $password\n\n";
 
 // Specify the file to save the data
 $file = 'user_data.txt';
